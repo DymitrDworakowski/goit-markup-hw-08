@@ -1,8 +1,23 @@
-/* ===Varible=== */
+//  Глобальные миксины, функции,вспомогательные селекторы и т.д.
 :root {
-    --color-main: #757575;
-    --color-dark: #212121;
-    --color-hover: #2196F3;
-    --font-weight: 500;
-    --font-size: 14px;
+    --main-color: #757575;
+
+    --dark-color: #212121;
+
+    --secondary-color: #ffffff;
+
+    --footer-link-color: rgba(255, 255, 255, 0.6);
+
+    --hover-color: #2196f3;
+
+    --font-text: 14px;
+
+    --font-weight-main: 500;
+}
+
+@mixin fonts ($fs,$ff,$lh) {
+    font-size: $fs;
+    font-weight: $ff;
+    line-height: $lh;
+    
 }
