@@ -104,11 +104,6 @@ li {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--hover-color);
-  -webkit-transition: text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.container__logo:hover, .container__logo:focus {
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .container__logo_span-black {
@@ -954,11 +949,6 @@ li {
   text-decoration: none;
   color: var(--secondary-color);
   letter-spacing: 0.03em;
-  -webkit-transition: text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-logo:hover, .footer-logo:focus {
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .logo-span {
@@ -1692,7 +1682,6 @@ li {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--main-color);
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 @media screen and (min-width: 768px) {
